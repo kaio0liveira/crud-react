@@ -66,6 +66,62 @@ export default props =>
                         placeholder="" />
                 </div>
             </div>
+            <div className="col-6 col-md-2">
+                <div className="form-group">
+                    <label>Rua</label>
+                    <input type="text"
+                        name="rua"
+                        id="rua"
+                        className="form-control"
+                        autoComplete='off'
+                        value={props.cpf}
+                        onChange={e => props.updateField(e)}
+                        onKeyPress={props.handleEnterPress}
+                        placeholder="" />
+                </div>
+            </div>
+            <div className="col-6 col-md-2">
+                <div className="form-group">
+                    <label>Numero</label>
+                    <input type="text"
+                        name="numero"
+                        id="numero"
+                        className="form-control"
+                        autoComplete='off'
+                        value={props.cpf}
+                        onChange={e => props.updateField(e)}
+                        onKeyPress={props.handleEnterPress}
+                        placeholder="" />
+                </div>
+            </div>
+            <div className="col-6 col-md-2">
+                <div className="form-group">
+                    <label>Bairro</label>
+                    <input type="text"
+                        name="bairro"
+                        id="bairro"
+                        className="form-control"
+                        autoComplete='off'
+                        value={props.cpf}
+                        onChange={e => props.updateField(e)}
+                        onKeyPress={props.handleEnterPress}
+                        placeholder="" />
+                </div>
+            </div>
+            <div className="col-6 col-md-2">
+                <div className="form-group">
+                    <label>Cidade</label>
+                    <input type="text"
+                        name="cidade"
+                        id="cidade"
+                        className="form-control"
+                        autoComplete='off'
+                        value={props.cpf}
+                        onChange={e => props.updateField(e)}
+                        onKeyPress={props.handleEnterPress}
+                        placeholder="" />
+                </div>
+            </div>
         </div>
 
         <hr />

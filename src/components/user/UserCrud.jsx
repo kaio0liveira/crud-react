@@ -19,7 +19,11 @@ const initialState = {
         name: '',
         email: '',
         cpf: '',
-        cep: ''
+        cep: '',
+        rua: '',
+        numero: '',
+        bairro: '',
+        cidade: ''
     },
     list: []
 }
@@ -106,7 +110,8 @@ export default class UserCrud extends React.Component {
     render() {
         return (
             <Main {...headerProps}>
-                <Userform name={this.state.user.name}
+                <Userform 
+                name={this.state.user.name}
                     email={this.state.user.email}
                     clear={this.clear}
                     save={this.save}

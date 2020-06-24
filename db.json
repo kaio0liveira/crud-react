@@ -1,17 +1,15 @@
 {
   "users": [
     {
-      "name": "teste",
-      "email": "teste",
-      "cpf": "3243423",
-      "id": 6
-    },
-    {
-      "name": "kaio",
-      "email": "kaio",
-      "cpf": "0000",
-      "cep": "71111",
-      "id": 7
+      "name": "Kaio",
+      "email": "kaio@gmail.com",
+      "cpf": "000000000",
+      "cep": "22223333",
+      "rua": "rua",
+      "numero": "10",
+      "bairro": "Leste",
+      "cidade": "Brasilia",
+      "id": 1
     }
   ]
 }
