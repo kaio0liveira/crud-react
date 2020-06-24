@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "name": "teste",
+      "email": "teste",
+      "cpf": "3243423",
+      "id": 6
+    },
+    {
+      "name": "kaio",
+      "email": "kaio",
+      "cpf": "0000",
+      "cep": "71111",
+      "id": 7
+    }
+  ]
+}
