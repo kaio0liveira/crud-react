@@ -1,6 +1,6 @@
 # Cadastro de Usuários
 
-<p>Um simples CRUD feito com React, Bootstrap, HTML5 e CSS3 com seu sistema de grids.</p>
+<p>CRUD feito com React</p>
 
 ## Instalação
 
